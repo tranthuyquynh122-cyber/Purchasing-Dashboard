@@ -29,6 +29,13 @@ The dataset includes purchasing transactions with details on:
 
 The data was cleaned and standardized to ensure reliable analysis.
 
+![image alt](https://github.com/tranthuyquynh122-cyber/Purchasing-Dashboard/blob/1b1f1cb89018f35dd9091d06e3383abbda478a24/Screenshot%202025-12-24%20235115.png)
+
+![image alt](https://github.com/tranthuyquynh122-cyber/Purchasing-Dashboard/blob/1b1f1cb89018f35dd9091d06e3383abbda478a24/Screenshot%202025-12-24%20235128.png)
+
+![image alt](https://github.com/tranthuyquynh122-cyber/Purchasing-Dashboard/blob/1b1f1cb89018f35dd9091d06e3383abbda478a24/Screenshot%202025-12-24%20235145.png)
+
+![image alt](https://github.com/tranthuyquynh122-cyber/Purchasing-Dashboard/blob/1b1f1cb89018f35dd9091d06e3383abbda478a24/Screenshot%202025-12-24%20235153.png)
 
 ## 🔎 Final Conclusion & Recommendations
 - Purchasing activity shows clear time-based trends  
