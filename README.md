@@ -1,4 +1,4 @@
-# 📦 Purchasing Performance Dashboard (Power BI)
+# 📦 Purchasing Performance Dashboard
 
 ## 📌 Project Description
 This project analyzes **purchasing and procurement data** using Power BI to evaluate supplier performance, purchasing spend, delivery efficiency, and order execution quality.  
