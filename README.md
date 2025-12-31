@@ -10,11 +10,12 @@ How can a company monitor purchasing activities, control total cost, and evaluat
 
 ## 📑 Table of Contents
 
-1. 📌 [Background & Overview](#-background--overview)  
-2. 📂 [Dataset Description & Data Structure](#-dataset-description--data-structure)  
-3. 🧠 [Design Thinking Process](#-design-thinking-process)  
-4. 📊 [Key Insights & Visualizations](#-key-insights--visualizations)  
-5. 🔎 [Final Conclusion & Recommendations](#-final-conclusion--recommendations)
+
+1. 📌 [Background & Overview](#background--overview)
+2. 📂 [Dataset Description & Data Structure](#dataset-description--data-structure)
+3. 🧠 [Design Thinking Process](#design-thinking-process)
+4. 📊 [Key Insights & Visualizations](#key-insights--visualizations)
+5. 🔎 [Final Conclusion & Recommendations](#final-conclusion--recommendations)
 
 ---
 
@@ -74,7 +75,7 @@ Only tables relevant to purchasing analysis were selected.
 
 ## 🧾 Fact Tables  
 
-### 📘 Purchasing.PurchaseOrderHeader  
+### 📘 Fact.PurchaseOrderHeader  
 
 <details>
 <summary>Click to expand table schema</summary>
@@ -99,7 +100,7 @@ Only tables relevant to purchasing analysis were selected.
 
 ---
 
-### 📘 Purchasing.PurchaseOrderDetail  
+### 📘 Fact.PurchaseOrderDetail  
 
 <details>
 <summary>Click to expand table schema</summary>
@@ -123,7 +124,7 @@ Only tables relevant to purchasing analysis were selected.
 
 ## 🧱 Dimension Tables  
 
-### 📘 Purchasing.Vendor  
+### 📘 Dim.Vendor  
 
 <details>
 <summary>Click to expand table schema</summary>
@@ -142,7 +143,7 @@ Only tables relevant to purchasing analysis were selected.
 
 ---
 
-### 📘 Purchasing.ProductVendor  
+### 📘 Dim.ProductVendor  
 
 <details>
 <summary>Click to expand table schema</summary>
@@ -165,7 +166,7 @@ Only tables relevant to purchasing analysis were selected.
 
 ---
 
-### 📘 Production.Product  
+### 📘 Dim.Product  
 
 <details>
 <summary>Click to expand table schema</summary>
@@ -186,7 +187,7 @@ Only tables relevant to purchasing analysis were selected.
 
 ---
 
-### 📘 Production.ProductSubcategory  
+### 📘 Dim.ProductSubcategory  
 
 <details>
 <summary>Click to expand table schema</summary>
@@ -202,7 +203,7 @@ Only tables relevant to purchasing analysis were selected.
 
 ---
 
-### 📘 Purchasing.ShipMethod  
+### 📘 Dim.ShipMethod  
 
 <details>
 <summary>Click to expand table schema</summary>
@@ -221,13 +222,10 @@ Only tables relevant to purchasing analysis were selected.
 
 ## 🔗 Data Relationships  
 
-- One **Vendor → Many Purchase Orders**  
-- One **Purchase Order → Many Purchase Order Details**  
-- One **Product → Many Purchase Order Details**  
-- One **Product Category → Many Products**  
-- One **Ship Method → Many Purchase Orders**
+<img width="659" height="697" alt="image" src="https://github.com/user-attachments/assets/75d36cc1-e55b-49d7-9349-1f4fb422adab" />
 
-These relationships form a **star-schema–like model**, optimized for analytics and Power BI reporting.
+
+These relationships form a **Snowflake-schema–like model**, optimized for analytics and Power BI reporting.
 
 ---
 
