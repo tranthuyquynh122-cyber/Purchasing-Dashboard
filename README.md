@@ -19,6 +19,7 @@ How can a company monitor purchasing activities, control total cost, and evaluat
 
 ---
 
+<a id="background-overview"></a>
 ## 📌 Background & Overview  
 
 ### 🎯 Objective
@@ -54,6 +55,7 @@ This project is designed for:
 
 ---
 
+<a id="dataset-description--data-structure"></a>
 ## 📂 Dataset Description & Data Structure  
 
 ### 📌 Data Source  
@@ -228,7 +230,7 @@ Only tables relevant to purchasing analysis were selected.
 These relationships form a **Snowflake-schema–like model**, optimized for analytics and Power BI reporting.
 
 ---
-
+<a id="design-thinking-process"></a>
 ## 🧠 Design Thinking Process  
 
 ### 1️⃣ Empathize  
@@ -296,6 +298,9 @@ A Power BI dashboard was developed to:
 - Enable filtering by time, vendor, category, and order status  
 - Highlight inefficiencies and operational risks  
 - Support data-driven decisio
+
+<a id="key-insights--visualizations"></a>
+## 📊 Key Insights & Visualizations
 
 ## 📊 Key Insights & Visualizations  
 
@@ -472,7 +477,7 @@ A Power BI dashboard was developed to:
 
 ---
 
-
+<a id="final-conclusion--recommendations"></a>
 ## 🔎 Final Conclusion & Recommendations  
 
 👉 Based on the overall findings, the following strategic actions are recommended for procurement stakeholders:
