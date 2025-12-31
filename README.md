@@ -19,7 +19,7 @@ How can a company monitor purchasing activities, control total cost, and evaluat
 
 ---
 
-<a id="background-overview"></a>
+<a id="background--overview"></a>
 ## 📌 Background & Overview  
 
 ### 🎯 Objective
@@ -301,10 +301,6 @@ A Power BI dashboard was developed to:
 
 <a id="key-insights--visualizations"></a>
 ## 📊 Key Insights & Visualizations
-
-## 📊 Key Insights & Visualizations  
-
----
 
 ## 🔍 Dashboard Preview  
 
