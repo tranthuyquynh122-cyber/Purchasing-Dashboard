@@ -1,4 +1,4 @@
-# 📊 Procurement Performance Dashboard – Purchasing Analysis with Power BI
+# 📊 How Efficient Is Our Procurement Process? – Procurement Performance Analysis | Power BI
 
 **Business Question:**  
 How can a company monitor purchasing activities, control total cost, and evaluate vendor performance to improve operational efficiency?
